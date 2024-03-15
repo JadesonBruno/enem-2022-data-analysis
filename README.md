@@ -1,4 +1,4 @@
-# Análise de Dados do Enem 2022
+# Análise de Dados do ENEM 2022
 
 [![License](https://img.shields.io/npm/l/react)](https://github.com/JadesonBruno/enem-2022-data-analysis/blob/main/LICENSE)
 
@@ -82,6 +82,10 @@ Optou-se pela modelagem dimensional do conjunto de dados, especificamente utiliz
 
 ### Dashboard: Inscritos
 
+<p align="center">
+  <img src="./assets/inscritos.png">
+</p>
+
 Nesta visualização, conseguimos extrair alguns insights significativos, como:
 
 1. A proporção de mulheres que realizam o ENEM é superior à dos homens. Isso pode ser atribuído ao fato de que, de acordo com o Censo de 2022, há um maior número de mulheres no Brasil, o que se reflete nos participantes do ENEM. Além disso, é importante destacar a crescente participação das mulheres no mercado de trabalho, muitas das quais buscam construir carreiras sustentadas por uma formação acadêmica sólida.
@@ -90,11 +94,14 @@ Nesta visualização, conseguimos extrair alguns insights significativos, como:
 
 3. A maior parcela da população de inscritos participam de famílias com renda per capita de até um salário mínimo. Esse dado reflete a vulnerabilidade econômica que enfrentamos no país nos diversos setores da sociedade.
 
-<p align="center">
-  <img src="./assets/inscritos.png">
-</p>
+4. O maior número de inscritos pertence a etinia parda, nos demonstrando o caráter miscigenado da sociedade brasileira.
+
 
 ### Dashboard: Absenteísmo
+
+<p align="center">
+  <img src="./assets/absenteísmo.png">
+</p>
 
 Nesta visualização, conseguimos extrair alguns insights significativos, como:
 
@@ -102,15 +109,18 @@ Nesta visualização, conseguimos extrair alguns insights significativos, como:
 
 2. O segundo dia de prova, que abrange Ciências da Natureza e Matemática, apresenta um percentual maior de faltas. Isso pode ser atribuído ao chamado “efeito do segundo dia de prova”, onde um desempenho insatisfatório no primeiro dia pode levar à desistência do estudante. Além disso, o fato de que as disciplinas do segundo dia são voltadas para as ciências exatas, áreas em que os estudantes geralmente enfrentam mais dificuldades, também pode contribuir para esse fenômeno.
 
-<p align="center">
-  <img src="./assets/absenteísmo.png">
-</p>
-
 ### Dashboard: Resultados
 
 <p align="center">
   <img src="./assets/resultados.png">
 </p>
+
+Nesta aba, algumas análises são:
+
+1. Em resultados, podemos observar que a média geral, calculada como a soma de todas as notas dividida pelo número total de avaliações, é inferior à média da redação. A partir dessa constatação, podemos inferir que a habilidade técnica de produzir um texto dissertativo, aliada à criatividade na sua construção, é uma característica destacada entre os estudantes. Isso sugere que esses alunos possuem uma capacidade notável de analisar a realidade e comunicá-la de forma eficaz ao público.
+
+2. A análise dos dados revela que, apesar de um grande número de respostas ausentes, a média geral em diversas disciplinas nas escolas públicas é inferior à das escolas privadas. Esta constatação evidencia as lacunas no sistema de ensino público do país, sinalizando a necessidade de intensificar as ações governamentais neste setor.
+
 
 ### Dashboard: Insight 1
 
@@ -118,17 +128,38 @@ Nesta visualização, conseguimos extrair alguns insights significativos, como:
   <img src="./assets/insight_1.png">
 </p>
 
+1. Percebemos através do gráfico que quanto maior a renda familiar, maior o desempenho do estudante levando em consideração a nota média, levando em consideração também qualque região do Brasil, o comportamento é o mesmo. Pessoas sem nenhuma renda, pessoas que recebem até 1 salário e que recebem de 1 até 2 salários mínimos têm sempre um desempenho abaixo da média nacional.
+
+2. A Região Norte possui o pior cenário levando em consideração qualquer faixa de renda.
+
 ### Dashboard: Insight 2
 
 <p align="center">
   <img src="./assets/insight_2.png">
 </p>
 
+1. Independentemente da região, os alunos apresentaram o melhor desempenho em Redação e o pior desempenho em Ciências da Natureza, que inclui Biologia, Física e Química.
+
+Diante deste cenário, torna-se necessário reformular a grade curricular dessas disciplinas, incorporando métodos mais eficazes para transmitir o conhecimento aos alunos.
+
 ### Dashboard: Insight 3
 
 <p align="center">
   <img src="./assets/insight_3.png">
 </p>
+
+1. No 3º insight, é evidente o desempenho insatisfatório da população indígena. Ao analisarmos a Região Norte, segmentando o público por raça e cor, observamos que todos os grupos estão abaixo da média nacional.
+Essa realidade é corroborada pelos dados e frequentemente retratada pela mídia nacional, que destaca as dificuldades enfrentadas pelos estudantes da região para se deslocarem até a escola.
+
+As políticas educacionais devem ser direcionadas especificamente para a região e para a população indígena, transformando o que antes era um exemplo negativo em um modelo a ser seguido. 
+
+### Dashboard: Insight 4
+
+<p align="center">
+  <img src="./assets/insight_4.png">
+</p>
+
+1. Embora a média geral das mulheres seja inferior à dos homens, essa diferença não se reflete na nota de redação. Este cenário reflete mudanças significativas na sociedade, onde o antigo paradigma da "Mulher Dona de Casa" está gradativamente perdendo força. Nos últimos anos, observamos a entrada crescente das mulheres no mercado de trabalho, impulsionadas por carreiras respaldadas por cursos de ensino superior. Um aspecto relevante a ser considerado é a comparação entre esses dados e o número de mulheres que se inscrevem no exame. Embora o número de inscritas já tenha superado o de homens, as médias das notas permanecem desiguais. Uma possível explicação para essa discrepância reside na natureza do exame: obter uma pontuação elevada no ENEM demanda um esforço considerável em termos de tempo de estudo. Muitas mulheres enfrentam obstáculos nesse sentido, desde tenra idade, ao serem direcionadas para assumir responsabilidades domésticas e, muitas vezes, para contribuir financeiramente para suas famílias desde cedo. É crucial ressaltar que, apesar dessa disparidade, estamos testemunhando uma redução gradual na diferença das notas entre homens e mulheres. Isso é particularmente evidente no caso da nota de redação, onde as mulheres já ultrapassaram seus colegas do sexo masculino. Essa tendência indica uma evolução positiva e demonstra que as mulheres estão conquistando seu espaço e reconhecimento no âmbito educacional, apesar dos desafios ainda presentes.
 
 ## Links Úteis:
 
