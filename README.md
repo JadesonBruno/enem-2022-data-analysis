@@ -162,7 +162,7 @@ As políticas educacionais devem ser direcionadas especificamente para a região
 1. Embora a média geral das mulheres seja inferior à dos homens, essa diferença não se reflete na nota de redação. Este cenário reflete mudanças significativas na sociedade, onde o antigo paradigma da "Mulher Dona de Casa" está gradativamente perdendo força. Nos últimos anos, observamos a entrada crescente das mulheres no mercado de trabalho, impulsionadas por carreiras respaldadas por cursos de ensino superior. Um aspecto relevante a ser considerado é a comparação entre esses dados e o número de mulheres que se inscrevem no exame. Embora o número de inscritas já tenha superado o de homens, as médias das notas permanecem desiguais. Uma possível explicação para essa discrepância reside na natureza do exame: obter uma pontuação elevada no ENEM demanda um esforço considerável em termos de tempo de estudo. Muitas mulheres enfrentam obstáculos nesse sentido, desde tenra idade, ao serem direcionadas para assumir responsabilidades domésticas e, muitas vezes, para contribuir financeiramente para suas famílias desde cedo. É crucial ressaltar que, apesar dessa disparidade, estamos testemunhando uma redução gradual na diferença das notas entre homens e mulheres. Isso é particularmente evidente no caso da nota de redação, onde as mulheres já ultrapassaram seus colegas do sexo masculino. Essa tendência indica uma evolução positiva e demonstra que as mulheres estão conquistando seu espaço e reconhecimento no âmbito educacional, apesar dos desafios ainda presentes.
 
 ## Links Úteis:
-
+- [Vizualização do Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTQwOGY2OGUtMjhhZi00NWVhLTkwY2ItOWQxNzg4YzE2MGNmIiwidCI6IjMzMWI2YTljLWJiNWYtNDk0Ni1hN2U3LWE5ZmQ5ZDUzNmVhNiJ9)
 - [INEP ENEM](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem)
 
 - [Documentação do Power BI](https://learn.microsoft.com/pt-br/power-bi/)
@@ -176,7 +176,7 @@ As políticas educacionais devem ser direcionadas especificamente para a região
 
 ## Contributions
 
-Contributions are welcome. Feel free to suggest improvements and possible fixes to the code through an issue or pull requests.
+Contribuições são bem-vindas. Sinta-se à vontade para sugerir melhorias e possíveis correções para o código por meio de um problema ou pull requests.
 
 ## Author
 
