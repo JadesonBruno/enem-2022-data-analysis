@@ -174,33 +174,12 @@ As políticas educacionais devem ser direcionadas especificamente para a região
 - Python (Pandas)
 - Microsoft Excel
 
-## Contributions
+## Contribuições
 
-Contribuições são bem-vindas. Sinta-se à vontade para sugerir melhorias e possíveis correções para o código por meio de um problema ou pull requests.
+Contribuições são bem-vindas. Sinta-se à vontade para sugerir melhorias e possíveis correções para o código por meio de uma issue ou pull requests.
 
 ## Author
 
 Jadeson Bruno Albuquerque da Silva
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jadeson-silva/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
