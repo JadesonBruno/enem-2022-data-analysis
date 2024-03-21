@@ -2,9 +2,9 @@
 
 [![License](https://img.shields.io/npm/l/react)](https://github.com/JadesonBruno/enem-2022-data-analysis/blob/main/LICENSE)
 
-Este repositório tem como objetivo armazenar o projeto desenvolvido no  módulo "Vizualização de Dados com Power BI" do Curso de Especialização  "Vem Ser Tech - Data Analystic", desenvolvido pela [ADA](https://ada.tech/) em parceria com o [Ifood](https://www.ifood.com.br/). O curso foi guiado pela instrução do professor [Bruno Trindade](https://www.linkedin.com/in/brunotrbr/).
+Este repositório tem como objetivo armazenar o projeto desenvolvido no  módulo "Vizualização de Dados com Power BI" do Curso de Especialização  "Vem Ser Tech - Data Analystics", desenvolvido pela [ADA](https://ada.tech/) em parceria com o [Ifood](https://www.ifood.com.br/). O curso foi guiado pela instrução do professor [Bruno Trindade](https://www.linkedin.com/in/brunotrbr/).
 
-O projeto foi um requisito essencial para a aprovação no módulo e encerra a cadeia de disciplinas que fizeram parte da formação em Data Analystic da ADA, consolidando o aprendizado prático dos participantes e preparando-os para o mercado de trabalho.
+O projeto foi um requisito essencial para a aprovação no módulo e encerra a cadeia de disciplinas que fizeram parte da formação em Data Analystics da ADA, consolidando o aprendizado prático dos participantes e preparando-os para o mercado de trabalho.
 
 Este repositório tem por objetivo trazer insights pertinentes ao Exame Nacional do Ensino Médio (ENEM) de 2022, trazendo insights sobre os incritos, análise de absenteísmo dos estudantes, desempenho dos participantes e exploração de dados socioeconômicos e geográficos.
 
@@ -36,7 +36,7 @@ Os dados utilizados neste projeto são os [Micodados do ENEM 2022](https://www.g
 
 ### ETL
 
-Para otimizar o desempenho no Power BI, inicialmente, realizamos a leitura do arquivo CSV utilizando a biblioteca Pandas. Isso nos permitiu reduzir o número de colunas, focando apenas naquelas que são relevantes para a nossa análise.
+Para otimizar o desempenho no Power BI, inicialmente, foi realizada a leitura do arquivo CSV utilizando a biblioteca Pandas. Isso permitiu reduzir o número de colunas, focando apenas naquelas que são relevantes para a análise.
 
 **Antes:**
 <p align="center">
@@ -50,17 +50,17 @@ Para otimizar o desempenho no Power BI, inicialmente, realizamos a leitura do ar
 
 Após essa etapa, foi possível exportar um conjunto de dados que inclui as colunas relevantes para nossa análise, bem como o total de inscritos no ENEM.
 
-Posteriormente, para facilitar o processamento no Power BI, limitamos o conjunto de dados a uma amostra de 100.000 instâncias. 
+Posteriormente, para facilitar o processamento no Power BI, limitou-se o conjunto de dados a uma amostra de 100.000 instâncias. 
 
-Com essas etapas finalizadas foi possível obter um dataset completo e outro filtrado que foram usados como parâmetros para a troca do Dataset no Power BI.
+Com essas etapas finalizadas, foi possível obter um dataset completo e outro filtrado que foram usados como parâmetros para a troca do Dataset no Power BI.
 
 Gostaria de destacar que essas etapas foram cruciais para garantir uma análise eficiente e ágil.
 
 ### Recategorização de Variáveis
 
-Outro aspecto importante do nosso trabalho foi a recategorização de algumas variáveis do conjunto de dados. Enfrentamos um desafio com variáveis que continham múltiplas categorias, resultando em visualizações excessivamente complexas que dificultavam a interpretação gráfica pelos stakeholders.
+Outro aspecto importante do trabalho foi a recategorização de algumas variáveis do conjunto de dados. Foi enfrentado um desafio com variáveis que continham múltiplas categorias, resultando em visualizações excessivamente complexas que dificultavam a interpretação gráfica pelos stakeholders.
 
-Para resolver essa questão, optamos pela desnormalização dos dados, aplicando uma modelagem dimensional que reduziu efetivamente o número de categorias. Isso simplificou nossas visualizações, tornando-as mais acessíveis e compreensíveis para os stakeholders.
+Para resolver essa questão, optou-se pela desnormalização dos dados, aplicando uma modelagem dimensional que reduziu efetivamente o número de categorias. Isso simplificou nossas visualizações, tornando-as mais acessíveis e compreensíveis para o conjunto de interessados.
 
 **Antes:**
 <p align="center">
@@ -74,7 +74,7 @@ Para resolver essa questão, optamos pela desnormalização dos dados, aplicando
 
 ### Modelagem
 
-Optou-se pela modelagem dimensional do conjunto de dados, especificamente utilizando o modelo Snowflake. Essa abordagem nos permitiu estruturar os dados de forma otimizada para análises complexas e ágeis. Com o Snowflake, conseguimos implementar um possível ambiente de data warehousing altamente escalável e flexível.
+Optou-se pela modelagem dimensional do conjunto de dados, especificamente utilizando o modelo Snowflake. Essa abordagem permitiu estruturar os dados de forma otimizada para análises complexas e ágeis. Com o Snowflake, conseguimos implementar um possível ambiente de Data Warehouse, altamente escalável e flexível.
 
 <p align="center">
   <img src="./assets/modelagem_enem_2022.png">
@@ -86,7 +86,7 @@ Optou-se pela modelagem dimensional do conjunto de dados, especificamente utiliz
   <img src="./assets/inscritos.png">
 </p>
 
-Nesta visualização, conseguimos extrair alguns insights significativos, como:
+Nesta visualização, foi possível extrair alguns insights significativos, como:
 
 1. A proporção de mulheres que realizam o ENEM é superior à dos homens. Isso pode ser atribuído ao fato de que, de acordo com o Censo de 2022, há um maior número de mulheres no Brasil, o que se reflete nos participantes do ENEM. Além disso, é importante destacar a crescente participação das mulheres no mercado de trabalho, muitas das quais buscam construir carreiras sustentadas por uma formação acadêmica sólida.
 
@@ -117,7 +117,7 @@ Nesta visualização, conseguimos extrair alguns insights significativos, como:
 
 Nesta aba, algumas análises são:
 
-1. Em resultados, podemos observar que a média geral, calculada como a soma de todas as notas dividida pelo número total de avaliações, é inferior à média da redação. A partir dessa constatação, podemos inferir que a habilidade técnica de produzir um texto dissertativo, aliada à criatividade na sua construção, é uma característica destacada entre os estudantes. Isso sugere que esses alunos possuem uma capacidade notável de analisar a realidade e comunicá-la de forma eficaz ao público.
+1. Em resultados, podemos observar que a média geral, calculada como a soma de todas as notas dividida pelo número total de avaliações, é inferior à média da redação. A partir dessa constatação, podemos inferir que a habilidade técnica de produzir um texto dissertativo, aliada à criatividade na sua construção, é uma característica destacada entre os estudantes. Isso sugere que esses alunos possuem uma melhor capacidade de analisar a realidade e comunicá-la de forma eficaz ao público.
 
 2. A análise dos dados revela que, apesar de um grande número de respostas ausentes, a média geral em diversas disciplinas nas escolas públicas é inferior à das escolas privadas. Esta constatação evidencia as lacunas no sistema de ensino público do país, sinalizando a necessidade de intensificar as ações governamentais neste setor.
 
@@ -149,7 +149,7 @@ Diante deste cenário, torna-se necessário reformular a grade curricular dessas
 </p>
 
 1. No 3º insight, é evidente o desempenho insatisfatório da população indígena. Ao analisarmos a Região Norte, segmentando o público por raça e cor, observamos que todos os grupos estão abaixo da média nacional.
-Essa realidade é corroborada pelos dados e frequentemente retratada pela mídia nacional, que destaca as dificuldades enfrentadas pelos estudantes da região para se deslocarem até a escola.
+Essa realidade é corroborada pelos dados e frequentemente retratada pela mídia nacional, que destaca as dificuldades enfrentadas pelos estudantes da região para se deslocarem até as escolas.
 
 As políticas educacionais devem ser direcionadas especificamente para a região e para a população indígena, transformando o que antes era um exemplo negativo em um modelo a ser seguido. 
 
