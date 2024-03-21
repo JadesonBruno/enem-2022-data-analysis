@@ -8,7 +8,7 @@ O projeto foi um requisito essencial para a aprovação no módulo e encerra a c
 
 Este repositório tem por objetivo trazer insights pertinentes ao Exame Nacional do Ensino Médio (ENEM) de 2022, trazendo insights sobre os incritos, análise de absenteísmo dos estudantes, desempenho dos participantes e exploração de dados socioeconômicos e geográficos.
 
-A análise foi projetada para ser visualizada no formato de "Dashboard´s" no [Microsoft Power BI](https://www.microsoft.com/pt-br/power-platform/products/power-bi), permitindo a demonstração dos resultados através de painéis interativos e facilitando o entendimento do público.
+A análise foi projetada para ser visualizada no formato de "Dashboards" no [Microsoft Power BI](https://www.microsoft.com/pt-br/power-platform/products/power-bi), permitindo a demonstração dos resultados através de painéis interativos e facilitando o entendimento do público.
 
 ## Contextualização
 
